@@ -7,6 +7,8 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
-public struct SPM {
-  public static func startFramework()
+@objc @_inheritsConvenienceInitializers final public class SPM : ObjectiveC.NSObject {
+  @objc final public class func startFramework()
+  @objc override dynamic public init()
+  @objc deinit
 }
