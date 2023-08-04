@@ -1,4 +1,0 @@
-framework module MySPMPackageFramework {
-  header "MySPMPackageFramework-Swift.h"
-  requires objc
-}
