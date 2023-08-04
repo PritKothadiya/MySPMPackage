@@ -1,0 +1,11 @@
+framework module MySPMPackage {
+  umbrella header "MySPMPackage.h"
+
+  export *
+  module * { export * }
+}
+
+module MySPMPackage.Swift {
+  header "MySPMPackage-Swift.h"
+  requires objc
+}
