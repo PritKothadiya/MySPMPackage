@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySPMPackageFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPM",
+        "printedName": "SPM",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startFramework",
+            "printedName": "startFramework()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21MySPMPackageFramework3SPMV05startC0yyFZ",
+            "mangledName": "$s21MySPMPackageFramework3SPMV05startC0yyFZ",
+            "moduleName": "MySPMPackageFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21MySPMPackageFramework3SPMV",
+        "mangledName": "$s21MySPMPackageFramework3SPMV",
+        "moduleName": "MySPMPackageFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
